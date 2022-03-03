@@ -45,6 +45,7 @@ struct ChatView: View {
         }
         
     }
+    
     private func chatCell(title: String) -> some View {
         HStack {
             Rectangle()
