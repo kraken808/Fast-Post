@@ -1,0 +1,28 @@
+/* 
+  String.strings
+  Fast-Post
+
+  Created by  kraken808 on 28.02.2022.
+  
+*/
+
+"find_deliver" = "Найти людей для передачи посылки";
+"from_where" = "Откуда";
+"to_where" = "Куда";
+"date" = "Дата";
+"search" = "Поиск";
+"suggestion_txt" = "Возможно, вам подойдут эти маршруты";
+"leave_request_msg"= "Оставить заявку для отправки посылки";
+"transport" = "Транспорт";
+"weight" = "Объем";
+"price" = "Цена";
+"description" = "Описание, примечания";
+"leave_request" = "Оставить заявку";
+"become_sender" = "Стать отправителем";
+"become_performer" = "Стать исполнителем";
+"my_posts" = "Мои посылки";
+"my_trips" = "Мои поездки";
+"edit_profile" = "Редактировать профиль";
+"notification" = "Уведомления";
+"logout" = "Выход";
+"magnifyingglass" = "magnifyingglass";

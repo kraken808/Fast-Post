@@ -11,7 +11,7 @@ import SwiftUI
 struct Fast_PostApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabsView()
         }
     }
 }

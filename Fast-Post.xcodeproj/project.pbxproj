@@ -7,18 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410718876CA16C7A991D9149 /* Pods_Fast_Post.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C427D0C75D47357C0E65D77 /* Pods_Fast_Post.framework */; };
 		FD23E73827CC827D0012DC25 /* Fast_PostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E73727CC827D0012DC25 /* Fast_PostApp.swift */; };
 		FD23E73A27CC827D0012DC25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E73927CC827D0012DC25 /* ContentView.swift */; };
 		FD23E73C27CC827F0012DC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD23E73B27CC827F0012DC25 /* Assets.xcassets */; };
 		FD23E73F27CC827F0012DC25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD23E73E27CC827F0012DC25 /* Preview Assets.xcassets */; };
+		FD23E74E27CC88A30012DC25 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E74D27CC88A30012DC25 /* TabsView.swift */; };
+		FD23E75027CC89850012DC25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E74F27CC89850012DC25 /* HomeView.swift */; };
+		FD23E75227CC89930012DC25 /* CreateAdvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E75127CC89930012DC25 /* CreateAdvertView.swift */; };
+		FD23E75427CC899D0012DC25 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E75327CC899D0012DC25 /* ChatView.swift */; };
+		FD23E75627CC89AB0012DC25 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E75527CC89AB0012DC25 /* ProfileView.swift */; };
+		FD23E75A27CC8A920012DC25 /* TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E75927CC8A920012DC25 /* TabItems.swift */; };
+		FD23E75D27CC91E90012DC25 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E75C27CC91E90012DC25 /* EnvironmentValues+Extension.swift */; };
+		FD23E76027CC99E90012DC25 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD23E75F27CC99E90012DC25 /* Media.xcassets */; };
+		FD23E76427CC9CD60012DC25 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E76327CC9CD60012DC25 /* R.generated.swift */; };
+		FD23E76627CC9D920012DC25 /* RRecources+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E76527CC9D920012DC25 /* RRecources+Extension.swift */; };
+		FD23E76D27CCC1880012DC25 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD23E76B27CCBCAE0012DC25 /* FiraSans-Bold.ttf */; };
+		FD23E76E27CCC18B0012DC25 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD23E76927CCBCAE0012DC25 /* FiraSans-Medium.ttf */; };
+		FD23E76F27CCC18E0012DC25 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD23E76A27CCBCAE0012DC25 /* FiraSans-Regular.ttf */; };
+		FD23E77327CCC27D0012DC25 /* LocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD23E77227CCC27D0012DC25 /* LocalizedString.strings */; };
+		FD23E77527CCCFE90012DC25 /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77427CCCFE90012DC25 /* BasicTextField.swift */; };
+		FD23E77827CCD2C70012DC25 /* BasicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77727CCD2C70012DC25 /* BasicShadow.swift */; };
+		FD23E77A27CCD3210012DC25 /* StandardCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77927CCD3210012DC25 /* StandardCornerRadius.swift */; };
+		FD23E77C27CCECD20012DC25 /* AdvertCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77B27CCECD20012DC25 /* AdvertCard.swift */; };
+		FD23E77E27CDB7A50012DC25 /* DatePickerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77D27CDB7A50012DC25 /* DatePickerWidget.swift */; };
+		FD23E78027CDBC9D0012DC25 /* TransportPickerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E77F27CDBC9D0012DC25 /* TransportPickerWidget.swift */; };
+		FD23E78427CE07D80012DC25 /* TextFieldWithItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78327CE07D80012DC25 /* TextFieldWithItem.swift */; };
+		FD23E78627CF3B600012DC25 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78527CF3B600012DC25 /* Date+Extension.swift */; };
+		FD23E78827CF3F8B0012DC25 /* TextGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78727CF3F8B0012DC25 /* TextGroup.swift */; };
+		FD23E78A27CF5B270012DC25 /* TrasportTypeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78927CF5B270012DC25 /* TrasportTypeAlert.swift */; };
+		FD23E78D27CF65850012DC25 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78C27CF65850012DC25 /* CheckBox.swift */; };
+		FD23E78F27CF7ED30012DC25 /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23E78E27CF7ED30012DC25 /* SwitchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B9323CF8E98F390E327A330 /* Pods-Fast-Post.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast-Post.debug.xcconfig"; path = "Target Support Files/Pods-Fast-Post/Pods-Fast-Post.debug.xcconfig"; sourceTree = "<group>"; };
+		9C427D0C75D47357C0E65D77 /* Pods_Fast_Post.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Post.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD23E73427CC827D0012DC25 /* Fast-Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast-Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD23E73727CC827D0012DC25 /* Fast_PostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_PostApp.swift; sourceTree = "<group>"; };
 		FD23E73927CC827D0012DC25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD23E73B27CC827F0012DC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD23E73E27CC827F0012DC25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD23E74D27CC88A30012DC25 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		FD23E74F27CC89850012DC25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FD23E75127CC89930012DC25 /* CreateAdvertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAdvertView.swift; sourceTree = "<group>"; };
+		FD23E75327CC899D0012DC25 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FD23E75527CC89AB0012DC25 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FD23E75927CC8A920012DC25 /* TabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItems.swift; sourceTree = "<group>"; };
+		FD23E75C27CC91E90012DC25 /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
+		FD23E75F27CC99E90012DC25 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FD23E76327CC9CD60012DC25 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		FD23E76527CC9D920012DC25 /* RRecources+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RRecources+Extension.swift"; sourceTree = "<group>"; };
+		FD23E76927CCBCAE0012DC25 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		FD23E76A27CCBCAE0012DC25 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		FD23E76B27CCBCAE0012DC25 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		FD23E76C27CCBEE60012DC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD23E77227CCC27D0012DC25 /* LocalizedString.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LocalizedString.strings; sourceTree = "<group>"; };
+		FD23E77427CCCFE90012DC25 /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
+		FD23E77727CCD2C70012DC25 /* BasicShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShadow.swift; sourceTree = "<group>"; };
+		FD23E77927CCD3210012DC25 /* StandardCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCornerRadius.swift; sourceTree = "<group>"; };
+		FD23E77B27CCECD20012DC25 /* AdvertCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCard.swift; sourceTree = "<group>"; };
+		FD23E77D27CDB7A50012DC25 /* DatePickerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerWidget.swift; sourceTree = "<group>"; };
+		FD23E77F27CDBC9D0012DC25 /* TransportPickerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportPickerWidget.swift; sourceTree = "<group>"; };
+		FD23E78327CE07D80012DC25 /* TextFieldWithItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithItem.swift; sourceTree = "<group>"; };
+		FD23E78527CF3B600012DC25 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		FD23E78727CF3F8B0012DC25 /* TextGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGroup.swift; sourceTree = "<group>"; };
+		FD23E78927CF5B270012DC25 /* TrasportTypeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrasportTypeAlert.swift; sourceTree = "<group>"; };
+		FD23E78C27CF65850012DC25 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		FD23E78E27CF7ED30012DC25 /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
+		FFA2F50C3820BDD10524DED3 /* Pods-Fast-Post.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast-Post.release.xcconfig"; path = "Target Support Files/Pods-Fast-Post/Pods-Fast-Post.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410718876CA16C7A991D9149 /* Pods_Fast_Post.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93100AA2916DA6154130472C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C427D0C75D47357C0E65D77 /* Pods_Fast_Post.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D11BCA66D1954B45987DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9323CF8E98F390E327A330 /* Pods-Fast-Post.debug.xcconfig */,
+				FFA2F50C3820BDD10524DED3 /* Pods-Fast-Post.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD23E72B27CC827D0012DC25 = {
 			isa = PBXGroup;
 			children = (
 				FD23E73627CC827D0012DC25 /* Fast-Post */,
 				FD23E73527CC827D0012DC25 /* Products */,
+				F8D11BCA66D1954B45987DE8 /* Pods */,
+				93100AA2916DA6154130472C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +128,9 @@
 		FD23E73627CC827D0012DC25 /* Fast-Post */ = {
 			isa = PBXGroup;
 			children = (
+				FD23E76C27CCBEE60012DC25 /* Info.plist */,
+				FD23E75727CC8A660012DC25 /* Helpers */,
+				FD23E74527CC87B60012DC25 /* Views */,
 				FD23E73727CC827D0012DC25 /* Fast_PostApp.swift */,
 				FD23E73927CC827D0012DC25 /* ContentView.swift */,
 				FD23E73B27CC827F0012DC25 /* Assets.xcassets */,
@@ -67,6 +147,182 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FD23E74527CC87B60012DC25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E77627CCD2A60012DC25 /* ViewModifier */,
+				FD23E74827CC88090012DC25 /* Widgets */,
+				FD23E74727CC87EA0012DC25 /* CustomViews */,
+				FD23E74627CC87D70012DC25 /* TabsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD23E74627CC87D70012DC25 /* TabsView */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E74D27CC88A30012DC25 /* TabsView.swift */,
+				FD23E74C27CC88390012DC25 /* HomeView */,
+				FD23E74B27CC88360012DC25 /* CreateAdvert */,
+				FD23E74A27CC88330012DC25 /* ChatView */,
+				FD23E74927CC882E0012DC25 /* ProfileView */,
+			);
+			path = TabsView;
+			sourceTree = "<group>";
+		};
+		FD23E74727CC87EA0012DC25 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E78B27CF65730012DC25 /* Buttons */,
+				FD23E78227CDBF1C0012DC25 /* Alert */,
+				FD23E78127CDBF0E0012DC25 /* TextFields */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FD23E74827CC88090012DC25 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E77B27CCECD20012DC25 /* AdvertCard.swift */,
+				FD23E77D27CDB7A50012DC25 /* DatePickerWidget.swift */,
+				FD23E77F27CDBC9D0012DC25 /* TransportPickerWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		FD23E74927CC882E0012DC25 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75527CC89AB0012DC25 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		FD23E74A27CC88330012DC25 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75327CC899D0012DC25 /* ChatView.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		FD23E74B27CC88360012DC25 /* CreateAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75127CC89930012DC25 /* CreateAdvertView.swift */,
+			);
+			path = CreateAdvert;
+			sourceTree = "<group>";
+		};
+		FD23E74C27CC88390012DC25 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E74F27CC89850012DC25 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		FD23E75727CC8A660012DC25 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E76227CC9CC00012DC25 /* Recources */,
+				FD23E75B27CC91C70012DC25 /* Extensions */,
+				FD23E75827CC8A7A0012DC25 /* Enums */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FD23E75827CC8A7A0012DC25 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75927CC8A920012DC25 /* TabItems.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		FD23E75B27CC91C70012DC25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75C27CC91E90012DC25 /* EnvironmentValues+Extension.swift */,
+				FD23E76527CC9D920012DC25 /* RRecources+Extension.swift */,
+				FD23E78527CF3B600012DC25 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD23E76227CC9CC00012DC25 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E76327CC9CD60012DC25 /* R.generated.swift */,
+				FD23E76827CCBC810012DC25 /* Fonts */,
+				FD23E77027CCC24A0012DC25 /* Strings */,
+				FD23E77127CCC25C0012DC25 /* Colors */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		FD23E76827CCBC810012DC25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E76B27CCBCAE0012DC25 /* FiraSans-Bold.ttf */,
+				FD23E76927CCBCAE0012DC25 /* FiraSans-Medium.ttf */,
+				FD23E76A27CCBCAE0012DC25 /* FiraSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FD23E77027CCC24A0012DC25 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E77227CCC27D0012DC25 /* LocalizedString.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		FD23E77127CCC25C0012DC25 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E75F27CC99E90012DC25 /* Media.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		FD23E77627CCD2A60012DC25 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E77727CCD2C70012DC25 /* BasicShadow.swift */,
+				FD23E77927CCD3210012DC25 /* StandardCornerRadius.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		FD23E78127CDBF0E0012DC25 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E77427CCCFE90012DC25 /* BasicTextField.swift */,
+				FD23E78327CE07D80012DC25 /* TextFieldWithItem.swift */,
+				FD23E78727CF3F8B0012DC25 /* TextGroup.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		FD23E78227CDBF1C0012DC25 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E78927CF5B270012DC25 /* TrasportTypeAlert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		FD23E78B27CF65730012DC25 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FD23E78C27CF65850012DC25 /* CheckBox.swift */,
+				FD23E78E27CF7ED30012DC25 /* SwitchButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD23E74227CC827F0012DC25 /* Build configuration list for PBXNativeTarget "Fast-Post" */;
 			buildPhases = (
+				189FA31243EE6806D1D7A82B /* [CP] Check Pods Manifest.lock */,
+				FD23E76127CC9BF00012DC25 /* RSwift */,
 				FD23E73027CC827D0012DC25 /* Sources */,
 				FD23E73127CC827D0012DC25 /* Frameworks */,
 				FD23E73227CC827D0012DC25 /* Resources */,
+				5FC15514DFD963292CFF5587 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +385,106 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD23E73F27CC827F0012DC25 /* Preview Assets.xcassets in Resources */,
+				FD23E76027CC99E90012DC25 /* Media.xcassets in Resources */,
+				FD23E76F27CCC18E0012DC25 /* FiraSans-Regular.ttf in Resources */,
+				FD23E76E27CCC18B0012DC25 /* FiraSans-Medium.ttf in Resources */,
+				FD23E76D27CCC1880012DC25 /* FiraSans-Bold.ttf in Resources */,
+				FD23E77327CCC27D0012DC25 /* LocalizedString.strings in Resources */,
 				FD23E73C27CC827F0012DC25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		189FA31243EE6806D1D7A82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fast-Post-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC15514DFD963292CFF5587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast-Post/Pods-Fast-Post-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast-Post/Pods-Fast-Post-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fast-Post/Pods-Fast-Post-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD23E76127CC9BF00012DC25 /* RSwift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = RSwift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD23E73027CC827D0012DC25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23E78027CDBC9D0012DC25 /* TransportPickerWidget.swift in Sources */,
+				FD23E74E27CC88A30012DC25 /* TabsView.swift in Sources */,
+				FD23E75227CC89930012DC25 /* CreateAdvertView.swift in Sources */,
+				FD23E75A27CC8A920012DC25 /* TabItems.swift in Sources */,
+				FD23E77C27CCECD20012DC25 /* AdvertCard.swift in Sources */,
+				FD23E78A27CF5B270012DC25 /* TrasportTypeAlert.swift in Sources */,
+				FD23E75D27CC91E90012DC25 /* EnvironmentValues+Extension.swift in Sources */,
+				FD23E75027CC89850012DC25 /* HomeView.swift in Sources */,
 				FD23E73A27CC827D0012DC25 /* ContentView.swift in Sources */,
+				FD23E78827CF3F8B0012DC25 /* TextGroup.swift in Sources */,
+				FD23E75427CC899D0012DC25 /* ChatView.swift in Sources */,
+				FD23E76427CC9CD60012DC25 /* R.generated.swift in Sources */,
+				FD23E75627CC89AB0012DC25 /* ProfileView.swift in Sources */,
+				FD23E77A27CCD3210012DC25 /* StandardCornerRadius.swift in Sources */,
+				FD23E78D27CF65850012DC25 /* CheckBox.swift in Sources */,
+				FD23E78427CE07D80012DC25 /* TextFieldWithItem.swift in Sources */,
+				FD23E76627CC9D920012DC25 /* RRecources+Extension.swift in Sources */,
+				FD23E78F27CF7ED30012DC25 /* SwitchButton.swift in Sources */,
+				FD23E77527CCCFE90012DC25 /* BasicTextField.swift in Sources */,
+				FD23E77E27CDB7A50012DC25 /* DatePickerWidget.swift in Sources */,
+				FD23E77827CCD2C70012DC25 /* BasicShadow.swift in Sources */,
+				FD23E78627CF3B600012DC25 /* Date+Extension.swift in Sources */,
 				FD23E73827CC827D0012DC25 /* Fast_PostApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +610,7 @@
 		};
 		FD23E74327CC827F0012DC25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9323CF8E98F390E327A330 /* Pods-Fast-Post.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,11 +620,13 @@
 				DEVELOPMENT_TEAM = KKAPFUUV8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast-Post/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +642,7 @@
 		};
 		FD23E74427CC827F0012DC25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA2F50C3820BDD10524DED3 /* Pods-Fast-Post.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,11 +652,13 @@
 				DEVELOPMENT_TEAM = KKAPFUUV8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast-Post/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
