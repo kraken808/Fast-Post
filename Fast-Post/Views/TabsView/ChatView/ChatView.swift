@@ -37,6 +37,7 @@ struct ChatView: View {
         .standardRadius10()
         .basicShadow()
     }
+    
     private var chatListView: some View {
         List {
             ForEach(chat, id: \.self) { item in
